@@ -172,8 +172,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         switch (v.getId()) {
             case R.id.btn_notification:
-//                Intent intent = new Intent(Settings.ACTION_NOTIFICATION_LISTENER_SETTINGS);
-//                startActivity(intent);
                 if (!isNotificationListenerEnabled(this)) {
                     openNotificationListenSettings();
                 }
